@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__inner">
+            <nav class="cabecalho__menu" aria-label="Navegação principal">
+                <a class="cabecalho__menu__link" href="index.html">Home</a>
+                <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            </nav>
+            <button class="menu-toggle" aria-expanded="false" aria-label="Abrir menu">☰</button>
+        </div>
+    </header>
+
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um profissional de qualidade!</strong></h1>
+            <p class="apresentacao__conteudo__paragrafo">Olá! Sou Daniel Suruagy, desenvolvedor Full-Stack com especialidade em C#, JavaScript, SQL, HTML e CSS. Vamos conversar?</p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+
+                <div class="apresentacao__links__grid">
+                    <a class="apresentacao__links__botao instagram" href="https://www.instagram.com/suruagy__" target="_blank">
+                        <img src="./assets/images/instagram.png" alt="Instagram">Instagram
+                    </a>
+
+                    <a class="apresentacao__links__botao github" href="https://github.com/danielsuruagy" target="_blank">
+                        <img src="./assets/images/github.png" alt="GitHub">GitHub
+                    </a>
+
+                    <a class="apresentacao__links__botao linkedin" href="https://www.linkedin.com/in/daniel-suruagy" target="_blank">
+                        <img src="./assets/images/linkedin.png" alt="LinkedIn">LinkedIn
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="apresentacao__visual">
+            <img class="apresentacao__img" src="./assets/images/minha_foto.jpeg" alt="Minha foto">
+        </div>
+
+    </main>
+
+    <section id="projetos" class="projetos" aria-labelledby="projetos-titulo">
+        <div class="container" style="max-width:1100px;margin:28px auto;padding:0 6%">
+            <h2 id="projetos-titulo" style="color:var(--text);margin-bottom:14px">Projetos</h2>
+            <div class="projetos__grid">
+                <a class="projeto-card reveal" href="#" target="_blank"><div class="projeto-thumb"></div><span>Projeto 1</span></a>
+                <a class="projeto-card reveal" href="#" target="_blank"><div class="projeto-thumb"></div><span>Projeto 2</span></a>
+                <a class="projeto-card reveal" href="#" target="_blank"><div class="projeto-thumb"></div><span>Projeto 3</span></a>
+                <a class="projeto-card reveal" href="#" target="_blank"><div class="projeto-thumb"></div><span>Projeto 4</span></a>
+                <a class="projeto-card reveal" href="#" target="_blank"><div class="projeto-thumb"></div><span>Projeto 5</span></a>
+                <a class="projeto-card reveal" href="#" target="_blank"><div class="projeto-thumb"></div><span>Projeto 6</span></a>
+                <a class="projeto-card reveal" href="#" target="_blank"><div class="projeto-thumb"></div><span>Projeto 7</span></a>
+                <a class="projeto-card reveal" href="#" target="_blank"><div class="projeto-thumb"></div><span>Projeto 8</span></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Daniel Suruagy.</p>
+    </footer>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
